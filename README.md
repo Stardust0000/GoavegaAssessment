@@ -72,9 +72,11 @@ Each time field has a fixed range and may contain special characters that define
 ### Input
 " */15 0 1,15 * 1-5 /user/bin/find "
 ### Ouput
+```
 minute        0 15 30 45 
 hours         0
 day of month  1 15
 month         1 2 3 4 5 6 7 8 9 10 11 12
 day of week   1 2 3 4 5
 Command       /user/bin/find
+```
