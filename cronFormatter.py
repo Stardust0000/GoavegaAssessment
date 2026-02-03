@@ -43,7 +43,7 @@ def cronFieldValidation():
     for i in range(0, len(hours)):
         print( hours[i],end=" ")
     print()
-    print("day of month ",end=" ")
+    print("day of month",end="  ")
     for i in range(0, len(dayOfMonth)):
         print( dayOfMonth[i],end=" ") 
 
@@ -53,12 +53,12 @@ def cronFieldValidation():
         print( month[i],end=" ") 
 
     print()
-    print("day of week ",end="  ")
+    print("day of week",end="   ")
     for i in range(0, len(dayOfWeek)):
         print( dayOfWeek[i],end=" ") 
    
     print()
-    print(f"Command       {data[5]}")
+    print(f"command       {data[5]}")
         
 
 def specialCharacterRules(data,minVal,maxVal):
